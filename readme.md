@@ -1,4 +1,4 @@
-# NestJS Snippets for WebStorm
+# NestJS Snippets for WebStorm IDE
 
 This project provides a collection of code snippets for developing a backend application with NestJS in the WebStorm IDE. The goal of this project is to help developers increase their productivity and reduce the time and effort required to create common NestJS components such as controllers, services, and modules.
 
