@@ -1,0 +1,7 @@
+<template name="nest c" value="import { Controller } from '@nestjs/common';&#10;&#10;@Controller('$CONTROLLER_PATH$')&#10;export class $CONTROLLER_NAME$ {&#10;    $END$&#10;}" description="Create nest controller" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTROLLER_PATH" expression="substringBefore(fileName(), &quot;.&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="CONTROLLER_NAME" expression="capitalize(substringBefore(fileName(), &quot;.&quot;)) " defaultValue="" alwaysStopAt="false" />
+    <context>
+        <option name="TypeScript" value="true" />
+    </context>
+</template>
