@@ -1,0 +1,6 @@
+<template name="nest s" value="import { Injectable } from '@nestjs/common';&#10;&#10;@Injectable()&#10;export class $CLASS_NAME$Service {&#10;    $END$&#10;}" description="Create nest service" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="capitalize(substringBefore(fileName(), &quot;.&quot;))" defaultValue="" alwaysStopAt="false" />
+    <context>
+        <option name="TypeScript" value="true" />
+    </context>
+</template>
