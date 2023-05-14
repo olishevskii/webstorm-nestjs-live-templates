@@ -1,0 +1,6 @@
+<template name="nest m" value="import { Module } from '@nestjs/common';&#10;&#10;@Module($END$)&#10;export class $ClassName$Module {}" description="Create nest module" toReformat="false" toShortenFQNames="true">
+    <variable name="ClassName" expression="capitalize(substringBefore(fileName(), &quot;.&quot;))" defaultValue="" alwaysStopAt="false" />
+    <context>
+        <option name="TypeScript" value="true" />
+    </context>
+</template>
